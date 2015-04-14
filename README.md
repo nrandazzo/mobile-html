@@ -15,7 +15,10 @@ Most of the Web Pages posted into this Repo will be developed with the intention
 ###Login.html
 Light-weight web landing page providing a user interface for login, registration, and navigation to other site locations
 The Login input is wrapped in a POST form which can easily be routed on a server via Express or other HTTP Services, and of course SSL can be used to send a HTTPS post for secure login.  Styled with login.css
+![alt tag](https://github.com/nrandazzo/mobile-html/blob/master/images/login_demo_1.png)
+Light-Weight Menu Build
+![alt tag](https://github.com/nrandazzo/mobile-html/blob/master/images/login_demo_2.png)
 ###subpage.html
 This is a subpage template that can easily display information or content on a mobile web page.  Most of your content can be added into one main div element.  These subpages were designed to hold content for Contact pages, Statistic pages, About pages, and other simple design orientated content.  The web pages can be static or dynamic with the use of javascript.  The subpage template is styled subpage.css 
- 
+![alt tag](https://github.com/nrandazzo/mobile-html/blob/master/images/subpage_demo_1.png)
 
