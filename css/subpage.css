@@ -1,0 +1,75 @@
+html{
+  height:100%;
+  width:100%;
+}
+body{
+    height: 90%;
+	background: gray;
+color:#333;
+}
+
+ .context{
+	 height:auto;
+	 width:auto;
+	 background:#eeeeee;
+	 text-align:left;
+	 border:2px solid #006633;
+	 border-radius:4px;
+ }
+ p{
+	 text-align:left;
+	 font-size:50%;
+	 padding:1%;
+ }
+   h2{
+ 	  font-family: Lucida Sans Unicode;
+ 	  color:#eee;
+ 	  text-align:center;
+ 	  float:none;
+  padding:1%;
+   }
+ h3{
+	 text-align: center;
+	 font-size:75%;
+	 border-bottom:2px solid gray;
+	 border-radius:4px;
+ }
+   .info{
+ 	  position:absolute;
+ 	  width:auto;
+
+   }
+ .direct{
+	 color:#eee;
+ }
+   .menu{
+ 	  width:auto;
+ 	  padding:1%;
+ 	  display:none;
+ 	  font-size:60%;
+    color:#eee;
+ 	  text-align:center;
+ 	  border: 1.5px solid #eee;
+ 	  border-radius:5px;
+   }
+   .info:hover .menu {
+ 	  display:block;
+   }
+   a{
+ 	  color:#eee;
+  text-decoration:none;
+   }
+   a:hover{
+ 	  opacity:.5;
+  
+   }
+ .inlinks{
+	 color:#333;
+ }
+ li{
+	 list-style-type:square;
+ }
+ li:hover{
+	 /*div.display setup for each stats data */
+	 opacity:.5;
+ }

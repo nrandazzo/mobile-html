@@ -1,0 +1,83 @@
+  html{
+	  height:100%;
+	  width:100%;
+  }
+  body{
+	  background:gray;
+	  width:95%;
+	  height:75%;
+  }
+ 
+  .login{
+	  width:100%;
+	  height:auto;
+	  text-align:center;
+  }
+  h2{
+	  font-family: Lucida Sans Unicode;
+	  color:white;
+	  text-align:center;
+	  float:none;
+  }
+  
+  input {
+	  text-align:center;
+	  width:49%;
+	  font-size:50%;
+  }
+  
+  a{
+	  color:white;
+  }
+  a:hover{
+	  opacity:.5;
+	  
+  }
+  .nav{
+	  position:absolute;
+	  width:auto;
+  }
+  .help{
+	  text-align:center;
+	  text-decoration:underline;
+	  float:none;
+	  font-size:30%;
+	  height:auto;
+  }
+  .menu{
+	  width:auto;
+	  padding:1%;
+	  display:none;
+	  font-size:60%;
+	  text-decoration:none;
+	  text-align:center;
+	  border: 1.5px solid white;
+	  border-radius:5px;
+  }
+  
+  .nav:hover .menu {
+	  display:block;
+  }
+  
+  button{
+	  color:white;
+	  border: 2px solid white;
+	  border-radius: 4px;
+	  background:gray;
+  }
+  
+  button:hover {
+	opacity: .5;
+	border:1px solid white;
+  }
+	.buttons{
+  	  padding:5%;
+	  
+}
+@media only screen and (max-width: 400px) {
+  @-ms-viewport { width: 320px; }
+}
+
+@-ms-viewport{
+  width: device-width;
+}
